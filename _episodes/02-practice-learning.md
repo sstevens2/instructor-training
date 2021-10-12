@@ -1,257 +1,270 @@
 ---
 title: "Building Skill With Practice"
 block: "How Learning Works"
-teaching: 20
-exercises: 45
+teaching: 30
+exercises: 30
 questions:
 - "How do people learn?"
 - "Who is a typical Carpentries learner?"
 - "How can we help novices become competent practitioners?"
 objectives:
-- "Explain why practice and feedback are important for learning."
-- "Use formative assessments to guide your teaching."
+- "Compare and contrast the three stages of skill acquisition."
+- "Identify a mental model and an analogy that can help to explain it." 
+- "Apply a concept map to explore a simple mental model."
+- "Understand the limitations of knowledge in the absence of a functional mental model."
+- "Create a formative assessment to diagnose a broken mental model."
 keypoints:
 - "Our goal when teaching novices is to help them construct useful mental models."
-- "This requires practice and feedback."
+- "Exploring our own mental models can help us prepare to convey them."
+- "Constructing a useful mental model requires practice and corrective feedback."
 - "Formative assessments provide practice for learners and feedback to learners and instructors."
 ---
 
-We'll now get started with a discussion of how learning works. We'll learn
-some key findings from educational research and identify how these principles
-are put into practice in Carpentry workshops.
-
+We will now get started with a discussion of how learning works. We will begin with
+some key concepts from educational research and identify how these principles
+are put into practice in Carpentries workshops.
 
 ## The Carpentries Pedagogical Model
 
-The Carpentries aim to teach computational competence to learners. We take an applied approach, avoiding the theoretical and general 
+The Carpentries aims to teach computational competence to learners. We take an applied approach, avoiding the theoretical and general
 in favor of the practical and specific. By showing learners how to solve specific problems with specific tools and providing hands-on
-practice, we develop learners' confidence and lay the foundation for future learning. 
+practice, we develop learners' confidence and lay the foundation for future learning.
 
-A critical component of this process is that learners are able to practice what they are learning in real time, get 
-feedback on what they are doing, and then apply those lessons learned to the next step in the learning process. Having 
+A critical component of this process is that learners are able to practice what they are learning in real time, get
+feedback on what they are doing, and then apply those lessons learned to the next step in the learning process. Having
 learners help each other during the workshops also helps to reinforce concepts taught during the workshops.
 
-A Carpentries workshop is an interactive event -- for learners and instructors. We give and 
-receive feedback throughout the course of a workshop. We incorporate assessments within the lesson materials and 
-ask for feedback on sticky notes during lunch breaks and at the end of each day. In this way, instructors can adjust the 
-pace and content of a workshop to meet the needs of the learners in that group, as well as collect feedback 
-that will help us improve lesson materials or methodology for future workshops. Instructors and helpers also provide
-feedback to learners throughout workshops in order to get them unstuck or provide a greater depth of understanding about 
-the materials. Interacting in this way with the learners helps us determine how they are doing and figure out what concepts
-people are having trouble with or where we might be able to move along more quickly. 
+**A Carpentries workshop is an interactive event** -- for learners and instructors. We give and
+receive feedback throughout the course of a workshop. We incorporate assessments within the lesson materials and
+ask for feedback on sticky notes during lunch breaks and at the end of each day. 
+
+One reason why practice and feedback are so important is because a Carpentries workshop is not simply a source of information; 
+it is the starting point for development of a new skill. To understand what this means, we will start by exploring what 
+research tells us about skill acquisition and development of a "mental model."
 
 ## The Acquisition of Skill
 
 Our approach is based on the work of researchers like Patricia Benner,
 who applied the [Dreyfus model of skill acquisition][wikipedia-dreyfus-skill]
 in her studies of
-[how nurses progress from novice to expert](http://journals.sagepub.com/doi/10.1177/0270467604265061) 
-([see also books by Benner](https://www.worldcat.org/search?q=au%3ABenner%2C+Patricia+E.&qt=hot_author)). This work indicates that 
-through practice and formal instruction, learners acquire skills and advance through distinct stages. In simplified form,
-the three stages of this model are:
+[how nurses progress from novice to expert][nurses-dreyfus]
+([see also books by Benner][Benner-Dreyfus]). This work indicates that
+through practice and formal instruction, learners acquire skills and advance through distinct stages. In simplified form, three stages of this model are:
 
-![Novice, Competent Practitioner, Expert](../fig/skill-level.svg)
+![Three people, labeled from left to right as "Novice", "Competent Practitioner", and "Expert". Underneath,
+an arrow labelled "Experience level" points from left to right. The "Novice" is quoted, "I am not sure what questions to ask." The Competent Practitioner is quoted, "I am pretty confident, but I still look stuff up a lot!" The Expert is quoted "I have been doing this on a daily basis for years!"](../fig/skill-level.svg)
 
-*   *Novice*: someone who doesn't know what they don't know, i.e.,
-    they don't yet know what the key ideas in the domain are or how they relate.
-    One sign that someone is a novice is that their questions "aren't even wrong".
+*   *Novice*: someone who does not know what they do not know, i.e.,
+    they do not yet know what the key ideas in the domain are or how they relate.
+    Novices may have difficulty formulating questions, or may ask questions that seem irrelevant or off-topic
+    as they rely on prior knowledge, without knowing what is/not related yet.
 
-    > Example: A *novice* learner in a Carpentries workshop might never have heard of the bash shell, and therefore 
+    > Example: A *novice* learner in a Carpentries workshop might never have heard of the bash shell, and therefore
     may have no understanding of how it relates to their file system or other programs on their computer.
 
-*   *Competent practitioner*: someone who has enough understanding for everyday purposes. They won't know all the details 
-of how something works and their understanding may not be entirely accurate, but it is sufficient for completing normal 
-tasks with normal effort under normal circumstances.
+*   *Competent practitioner*: someone who has enough understanding for everyday purposes. They will not know all the details
+    of how something works and their understanding may not be entirely accurate, but it is sufficient for completing normal
+    tasks with normal effort under normal circumstances.
 
     > Example: A *competent practitioner* in a Carpentries workshop might have used the shell before and understand how to
-    move around directories and use individual programs, but they might not understand how they can fit these programs 
+    move around directories and use individual programs, but they might not understand how they can fit these programs
     together to build scripts and automate large tasks.
 
 *   *Expert*: someone who can easily handle situations that are out of the ordinary.
 
-    > Example: An *expert* in a Carpentries workshop may have experience writing and running shell scripts and, when 
+    > Example: An *expert* in a Carpentries workshop may have experience writing and running shell scripts and, when
     presented with a problem, immediately sees how these skills can be used to solve the problem.
 
-## Cognitive Development and Mental Models
+Note that how a person *feels* about their skill level is not included in these definitions! You may or may not 
+consider yourself an expert in a particular subject, but may nonetheless function at that level in certain contexts.
+We will come back to the expertise of the Instructor and its impact -- positive and negative -- 
+on teaching, in the next episode. 
+For now, we are primarily concerned with novices,
+as this tends to characterize The Carpentries audience.
 
-Effective learning is facilitated by the creation of a mental model. A mental model is a collection of concepts and facts, 
-along with the relationships between those concepts, which a person has about a topic. For example, a long-time resident of the United
-States may have an advanced understanding of the location of US states, major cities and landmarks, weather patterns, regional
-economies and demographic patterns, as well as the relationships among these, compared with their understanding of these relationships
-for other countries. In other words, their mental model of the United States is more complex compared with their mental model of other
-countries.
+It is common to think of a novice as a sort of an "empty vessel" into which knowledge can be "poured." Unfortunately, this analogy has
+limited usefulness and is wrong in ways that generate dangerous misconceptions. In our next section, we will briefly explore 
+the nature of "knowledge" through a concept
+that helps us differentiate between novices and competent practitioners in a more useful and visual way. This, in turn, will have implications
+for how we teach.
 
-We can distinguish between a *novice* and a *competent
-practitioner* for a given domain based on the complexity of their mental models.
+## Building a Mental Model
+> All models are wrong, but some are useful. 
+> - George Box, statistician
+{: .testimonial}
 
-*     A *novice* is someone who has not yet built a mental model of the domain.
-They therefore reason by analogy and guesswork,
-borrowing bits and pieces of their mental models of other domains
-which seem superficially similar.
-*     A *competent practitioner* is someone who has a mental model that's good enough for everyday purposes. This model 
-does not have to be completely accurate in order to be useful:
-for example, the average driver's mental model of how a car works probably doesn't include
-most of the complexities that a mechanical engineer would be concerned with.
+Understanding is never a mirror of reality, even for an expert; rather, it is 
+an internal representation based on our experience with a subject. 
+This internal representation is often described as a **mental model**. A mental model
+allows us to extrapolate, or make predictions beyond and between the narrow limits of experience and memory, filling in 
+gaps to the point that things "make sense." 
 
-![Mental Models](../fig/mental_models.svg)
+As we learn, our mental model evolves to become more complex and, most importantly, more useful. A useful model makes reasonable predictions and fits well within
+the range of things
+we are likely to encounter. While there will always be inaccuracies -- or "misconceptions" -- these do not interfere with day-to-day functioning. 
+A useful model does not seize up or break down entirely as new concepts are added. 
 
-We will discuss the mental models of experts in more detail in [a later lesson]({{ page.root }}/03-expertise/).
+### The power (and limitations) of analogies
+Some mental models can be succinctly summarized by comparison to something else that is more universally understood.  Good analogies can be extraordinarily useful when teaching,
+because they draw upon an existing mental model to fill in another, speeding learning and making a memorable connection. However, all analogies have limitations!
+If you choose to use an analogy, be sure its usefulness outweighs its potential to generate misconceptions that may interfere with learning. 
 
-> ## Your Mental Models
+> ## Analogy Brainstorm
 >
-> In the Etherpad, write your primary research domain or area of expertise and some aspects of the mental model you use to frame
-> and understand your work. What concepts/facts are included? What types of relationships are included?
->  
-> This discussion should take about 5 minutes.
+> 1. Think of an analogy to explore. Perhaps you have a favorite that relates to your area of professional interest, or a hobby. If 
+> you prefer to work with an example, consider this common analogy from education: "teaching is like gardening."
+> 2. Share your analogy with a partner or group. (If you have not yet done so, be sure to take a moment to introduce yourself, first!) What does your analogy
+> convey about the topic? How is it useful? In what ways is it wrong?
+> 
+>
+> This activity should take about 10 minutes.
 {: .challenge}
 
-One key insight from research on cognitive development is that
-novices, competent practitioners, and experts each need to be taught differently.
-In particular,
-presenting novices with a pile of facts early on is counter-productive,
-because they don't yet have a model or framework to fit those facts into.
-In fact,
-presenting too many facts too soon can actually reinforce
-their incorrect mental model.
-
-Most learners coming to Carpentries lessons are novices,
-and do not have a strong mental model of the concepts we are teaching.
-Thus, our
-primary goal is *not*
-to teach the syntax of a particular programming language, but *to help them construct a working mental model*
-so that they have something to attach facts to. In other words, our goal is to teach people *how to think* about programming and data 
-management.
-
-### The Importance of Going Slowly
-
-> If someone feels it's too slow, they'll be a bit bored. If they feel it's too fast, they'll never come back to programming. 
-> — Kunal Marwaha, SWC instructor
-{: .quotation}
-
-The transition from novice to competent practitioner is primarily
-the construction of a new mental model of this new intellectual domain.
-The goal of education for novices is, therefore,
-to help them form the right categories and make connections among concepts.
-Until they've done that, trying to impart "mere information" just confuses them (and is therefore a waste of time).
-
-As an example of this idea's practical implications,
-Software Carpentry's [lesson on the Unix shell][swc-shell-novice] only introduces 22 commands,
-and we usually spend two and a half hours working through it.
-Six and a half minutes per command may seem glacially slow,
-but the lesson's real purpose is to teach learners about paths,
-history, wildcards, pipes and filters,
-command-line arguments, redirection,
-and all the other big ideas on which the shell depends,
-and without which people cannot understand how to use commands.
-
-That model also includes things like:
-
-*   Anything you repeat manually, you'll eventually get wrong
-    (so let the computer repeat things for you by using tab completion
-    and the `history` command).
-*   Lots of little tools, combined as needed, are more productive than
-    a handful of programs.
-    (This motivates the pipe-and-filter model.)
-
-These two examples illustrate something else as well.
-Learning consists of more than "just" building mental models
-and adding information to them;
-creating linkages between concepts and facts is at least as important.
-Telling people that they shouldn't repeat things,
-and that they should try to think in terms of little pieces loosely joined,
-both set the stage for discussing functions.
-Explicitly referring back to pipes and filters in the shell when introducing functions
-helps solidify both ideas.
-
-> ## Meeting Learners Where They Are
-> One of the strengths of Carpentry workshops is that we meet learners where they're at. Carpentry instructors
-> strive to help learners
-> progress from whatever starting point they happen to be at, without making anyone 
-> feel inferior about their current practices or skillsets. We do this in part by teaching relevant and useful skills
-> building an inclusive learning environment, and continually getting (and paying attention to!) feedback
-> from learners. We'll be talking in more depth about each of these strategies as we go forward in our workshop.
+> ## Analogies at Work: "Software Carpentry"
+> People often ask where our name came from. Greg Wilson has this to say:
+> 
+>"Brent Gorda and I came up with the name in 1998 to differentiate what we were teaching from software engineering. That's about digging the Channel Tunnel; 
+> we're about the computational equivalent of hanging drywall."
+> 
+> The word "carpentry" acts as a metaphor -- a type of analogy -- inspiring a comparison with something concrete,
+> hands on, practical, and useful. This clearly conveys the purpose of our organization: to support computational skill development
+> among working practitioners who need the right tools and practices to be effective day to day.
 {: .callout}
 
-## How "Knowledge" Gets in the Way
+A mental model may be represented as a collection of concepts and facts, connected by relationships. 
+The mental model of an expert in any given subject will be far larger and more complex than that of a novice, including both more concepts 
+and more detailed and numerous relationships. However, **both may be perfectly useful** in certain contexts. 
 
-Mental models are hardly ever built from scratch. Every learner comes to a topic
-with some amount of information, ideas and opinions about the topic. This is true even
-in the case where a learner can't articulate their prior knowledge and beliefs.  
+Returning to our example levels of skill development: 
+*     A *novice* has a minimal mental model of surface features of the domain. Inaccuracies based on limited prior knowledge may interfere with adding new information.
+Predictions are likely to borrow heavily from mental models of other domains
+which seem superficially similar.
+*     A *competent practitioner* has a mental model that is useful for everyday purposes. Most new information
+they are likely to encounter will fit well with their existing model. Even though many potential elements of their mental model may
+still be missing or wrong, predictions about their area of work are usually accurate.
 
-In many cases, this prior knowledge is incomplete or inaccurate. Inaccurate beliefs can be termed "misconceptions" and
-can impede learning by making it more difficult for learners to incorporate new, correct information into their mental
-models.
-Correcting learners' misconceptions is at least as important as presenting them with correct information.
-Broadly speaking, misconceptions fall into three categories:
+![Three collections of six circles. The first collection is labelled "Novice" and has only two arrows connecting some of the circles. The second collection, labelled "Competent Practitioner" has six connecting arrows. The third collection, labelled "Expert", is densly connected, with eight connecting arrows.](../fig/mental_models.svg)
 
-*   Simple *factual errors*, such as believing that Vancouver is the capital of British Columbia.
-    These are the easiest to correct.
-*   *Broken models*, such as believing that motion and acceleration must be in the same direction.
-    We can address these by having learners reason through examples to see contradictions.
-*   *Fundamental beliefs*,
-    such as "the world is only a few thousand years old"
-    or "human beings cannot affect the planet's climate".
-    These beliefs are deeply connected to the learner's social identity
-    and are the hardest to change. 
 
-Since the Carpentries workshops are focused on novices, and the building of
-strong mental models, we're most interested in the middle category of misconceptions.
-While teaching, we want to expose learners' broken models so that we can help them build better ones.
+### Mapping a Mental Model
+Most people do not naturally visualize a mental model as a diagram of concepts and relationships. Mental models are complicated!
+Yet, visual representation of concepts and relationships can be a useful way to explore and understand hidden features of a mental model.
 
-## Identifying and Correcting Misconceptions
+There are certain ways in which you may routinely use visual organizers, such as
+flow charts or biochemical pathway diagrams. A more general tool that is useful for exploring any network of concepts and relationships is a **concept map**. Pioneered for
+classroom use by John Novak in the 1970s, a concept map asks you to identify which concepts are most relevant to a topic at hand and -- critically -- to
+identify how they are connected. It can be quite difficult to identify and organize these connections! However, the process of forcing abstract knowledge into a visual 
+format can force you to name connections that you might otherwise have quietly assumed, or illuminate gaps that you may not have been aware of. Especially where analogies are not available, concept mapping can help 
+you to make your mental model of a concept more clear to yourself or others.
 
-How do we expose misconceptions, especially as they pertain to broken models? How
-can we, in-class, know whether the learners already understand this topic
-(so that the class can move on),
-and if not,
-what misconceptions and gaps in their knowledge we should address.
+As an example, consider a mental model of the relationship between a small ball and water in a full glass.
 
-To be effective, instructors need feedback on their learners' progress,
-and insight into their learners' mental models.
-This feedback comes through formative assessments.
+The concept map below illustrates a simple mental model that a young child might develop after putting the ball in the water.
 
-*   *Formative assessment* takes place during teaching and learning.
-    Its main purpose is to provide guidance to the instructor and the learner about what to focus on.
-    Learners don't "pass" or "fail" formative assessments.
-    For example,
-    a music teacher might ask a learner to play a scale very slowly
-    in order to see whether they are breathing correctly,
-    and if not,
-    what they should change.
-*   In contrast, *summative assessment* is used
-    to judge whether a learner has reached an acceptable level of competence. 
-    Learners either "pass" or "fail" a summative assessment.
-    One example is a driving exam,
-    which tells the rest of society whether someone can safely be allowed on the road. Most assessment done in university
-    courses is summative, and is used to assign course grades.
+![Two words inside rectangles, with labeled arrows connecting them. "Ball" is at the left, with an arrow pointing to "Water", at right, labeled as "Pushes out."](../fig/ballwater1a.svg)
 
-Formative assessments provide feedback to both instructors and learners about learners' level of understanding of the
-material. For learners, this feedback can help focus their study efforts. For instructors, it allows them to refocus
-their instruction to respond to challenges that learners are facing.  
+Give a child balls of three different sizes, and they might put together a somewhat more complex mental model, 
+perhaps illustrated as:
 
-Formative assessment is most useful when it happens frequently (we'll talk about how frequently later) and when the
-results are easily interpretable by the learner and instructor.
+![Four words inside rectangles, with labeled arrows connecting them. "Ball" is at the left, and "Water", at right. "Big Ball" and "Small Ball" are stacked vertically between them. Arrows from "Ball" are labeled "can be MORE" and can be "LESS", and arrows to "water" are labeled as "Pushes out MORE" and "Pushes out "LESS"](../fig/ballwater2a.svg)
 
-> ## Repetition vs. Reflective Practice
+> ## Mapping a Mental Model
 >
-> The idea that ten thousand hours of practice will make someone an expert in some field
-> is widely known,
-> but reality is much more complex.
-> Practice is not doing the same thing over and over again:
-> practice is doing similar but subtly different things,
-> getting feedback,
-> and then changing behavior in response to that feedback to get cumulatively better.
-> Doing the same thing over and over again is much more likely to solidify bad habits than perfect performance.
-> This is why we emphasize practice and feedback for learners at our workshops and for trainees in our 
-> instructor training program. 
-{: .callout}
+> 1) On a piece of paper, draw a simplified concept map of the same concept you discussed in the last activity, but this time without the analogy. 
+> What are 3-4 core 
+> concepts involved? How are those concepts related? (Note: if you would like to try out an online tool for this exercise, visit <https://excalidraw.com> .)
+>  
+> 2) In the Etherpad, write some notes on this process. Was it difficult? Do you think it would be a useful exercise prior to teaching about your topic?
+> What challenges might a novice face in creating a concept map of this kind?  
+> This exercise should take about 5 minutes.
+{: .challenge}
 
-## Formative Assessments Come in Many Forms
+## Misconceptions
 
-There are many types of formative assessment, and each have their advantages and disadvantages. The most widely used is probably
-multiple choice questions (MCQs).
-When designed well,
-these can do much more than just measure how much someone knows.
+The mental model above connects a ball to the water it can displace, recognizing that 'more' ball can move 'more' water. This mental model is perfectly functional for a child who wants to have fun splashing water around.  
+It may endure in this way for several years of beaches and bathtubs.
+
+However, when this child is asked to predict what would happen to the water if a ball were not bigger or smaller but *heavier* or *lighter*, they will naturally apply their existing mental model to the task. 
+BUT...
+
+![A concept map similar to the previous one except with "Heavy Ball" and "Light Ball" in the middle, and a red "X" over the arrows labeled "Pushes out MORE" and "Pushes out LESS"](../fig/ballwater3a.svg)
+
+What a surprise! The challenge presented by this new information is that it clashes with the pre-existing mental model, to which it seemed to apply. This prior knowledge needs to be adjusted to a new understanding that incorporates the difference between properties of mass and volume.  
+
+![A new concept map. "Ball" remains at left, and "Water", at right. "Size" and "Weight" are stacked vertically between them. Arrows from "Ball" share the label "Can have more or less." One arrow from "size to "water" is labeled "Affects pushing of"](../fig/ballwater4a.svg)
+
+When mental models break, learning can occur more slowly than you might expect. The longer a prior model was in use, and the more extensively it has to be *unlearned*, the more it can actively interfere with the incorporation of new knowledge. Our child may quickly adapt to this new information if they had never thought much about mass before and were simply trying out an existing mental model on a new situation. However, if they had extensive experience with balls that were both larger and heavier (for example), it may take longer to unlearn what they thought they understood about mass.
+
+Most mental models worth mapping are not so simple. Yet, forcing complex ideas in to this simplified format can be useful when preparing to teach, because 
+it forces you to be explicit about exactly what concepts are at the heart of your topic, and to name relationships between them. 
+
+### Types of Misconceptions
+
+Correcting learners' misconceptions is at least as important as presenting them with correct information.
+There are many ways of classifying different types of misconceptions. For our purposes, it is useful to consider 
+3 broad categories:
+
+*   Simple *factual errors*. These exist in isolation from any deeper understanding. 
+    These are the easiest to correct. Example: believing that Vancouver is the capital of British Columbia.
+*   *Broken models*. These occur when inaccuracies explain relationships and generate predictions (often successfully!) in an existing mental model.
+    These take time to address, demanding that learners reason carefully through examples to see contradictions. 
+    Examples: believing that motion and acceleration must always be in the same direction, or that seasons are related to the shape of the earth's orbit.
+*   *Fundamental beliefs*, which are deeply connected to a learner's social identity
+    and are the hardest to change. Examples: "the world is only a few thousand years old"
+    or "human beings cannot affect the planet's climate". "I am not a computational person" may, arguably, also fall into this category of misconception.
+
+The middle category of misconceptions is the most useful type to watch out for in Carpentries workshops. 
+While teaching, we want to expose learners' broken models so that we can help them begin to deconstruct them and build better ones in their place. 
+
+> ## Anticipating Misconceptions
+>
+> Describe a misconception you have encountered as a teacher or as a learner.
+> 
+> This exercise should take about 5 minutes.
+{: .challenge}
+
+
+## Using Formative Assessment to Identify Misconceptions
+
+It would be so nice if misconceptions were visible! Unfortunately, facial expressions are a terrible metric to evaluate the accuracy of 
+a mental model. In order to effectively root out pre-existing misconceptions 
+that need to be un-learned and stop quietly developing 
+misconceptions in their tracks, an Instructor needs to be actively and persistently looking for them. But how? 
+
+Like so many challenges we will discuss in this training, the answer is **feedback**. In this case, we want feedback 
+that allows us to **assess** the developing mental model of a trainee in highly specific ways, to verify that learning 
+is proceeding according to plan and not careening off in some unpredicted direction. We want to get this feedback **while we teach**
+so that we can respond to that information and adapt our instruction to get learners back on track. 
+
+This kind of assessment has a name: it is called **formative assessment** because it is applied during learning to form 
+the practice of teaching and the experience of the learner. This is different from exams, for example, 
+which sum up what a participant has learned but are not used to guide further progress 
+and are hence called **summative**.
+
+Feedback from formative assessment illuminates misconceptions for both Instructors and learners. It also provides 
+reassurance on both sides when learning *is* proceeding on track! It is far more reliable than reading faces 
+or using feelings of comfort as a metric, which tends to be what Instructors and learners default to 
+otherwise.
+
+> ## Formative Assessments
+>
+> Any instructional tool that generates feedback that is used in a formative way can be described as "formative assessment." 
+> Based on your previous educational experience (or even this training so far!)
+> what types of formative assessments do you know about?
+>
+> Write your answers in the Etherpad; or go around and have each person in the group name one.
+> 
+> This exercise should take about 5 minutes.
+{: .challenge}
+
+Formative assessments can serve many purposes other than hunting down misconceptions, such as verifying 
+engagement or supporting memory consolidation. We will discuss some of these functions 
+in later episodes. In this section, we are interested quite narrowly in evaluating mental models.
+
+One example of formative assessment that can be used to tease out misconceptions is 
+the multiple choice question (MCQ).
+When designed carefully,
+these can target anticipated misconceptions with surgical precision.
 For example,
 suppose we are teaching children multi-digit addition.
 A well-designed MCQ would be:
@@ -270,14 +283,14 @@ but each of the other answers provides valuable insight.
 
 > ## Identify the Misconceptions
 >
-> Choose one wrong answer and write in the Etherpad what the misconception is associated with that wrong answer.
-> This discussion should take about 10 minutes.
+> Choose one wrong answer and write in the Etherpad what misconception is associated with that wrong answer.
+> This discussion should take about 5 minutes.
 >
 >> ## Solution
 >>
 >> *   If the child answers 32, they are throwing away the carry completely.
->> *   If they answer 312, they know that they can't just discard the carried '1',
->>     but doesn't understand that it's actually a ten
+>> *   If they answer 312, they know that they cannot just discard the carried '1',
+>>     but do not understand that it is actually a ten
 >>     and needs to be added into the next column.
 >>     In other words,
 >>     they are treating each column of numbers as unconnected to its neighbors.
@@ -286,117 +299,131 @@ but each of the other answers provides valuable insight.
 > {: .solution}
 {: .challenge}
 
-Each of these incorrect answers is a *plausible distractor* with *diagnostic power*.
-"Plausible" means that it looks like it could be right:
-instructors will often put supposedly-silly answers like "a fish!" on MCQs,
-but (a) they don't provide any insight
-and (b) learners actually don't find them funny.
-"Diagnostic power" means that each of the distractors helps the instructor figure out
-what concepts learners are having difficulty with.  
+Each of these incorrect answers has **diagnostic power**
+Each answer looks like it could be right:
+silly answers like "a fish!" offer therapeutic comedy but do not provide insight; nor do answers that
+are wrong in random ways. 
+"Diagnostic power" means that each of the wrong choices helps the instructor figure out
+precisely what misconceptions learners have adopted when they select that choice.  
 
-Formative assessments are most powerful when an instructor modifies their instruction depending on the
-results of the assessment. An instructor may learn they need to change their pace or review a particular concept. 
-Knowing how to respond to the results of a formative assessment is a skill that you will develop over time.
+Formative assessments are most powerful when:
+1. **all learners** are effectively assessed (not only the most vocal ones!) AND
+2. an **instructor responds promptly to the results of the assessment** 
+
+An instructor may learn they need to change their pace or review a particular concept.
+Using formative assessment effectively to discover and address misconceptions 
+is a teaching skill that you can develop with reflective practice.
 
 > ## Handling Outcomes
 >
 > Formative assessments allow us as instructors to adapt our instruction to our audience.
-> What should we do as instructors if the class chooses:
+> What options do we have if a majority of the class chooses:
 >
 > 1. mostly one of the wrong answers?  
 > 2. mostly the right answer?  
 > 3. an even spread among options?
 >
-> For one of the above, enter your answer in the Etherpad.   
+> Choose one of the above scenarios and compose a suggested response to it in the Etherpad.   
 >
-> This discussion should take about 10 minutes.
+> This discussion should take about 5 minutes.
 >
 >> ## Solution
->> 1. If the majority of the class votes for a single wrong answer, you should go back
->> and work on correcting that particular misconception.  
+>> 1. If the majority of the class votes for a single wrong answer, you have a widespread misconception 
+>> and can stop to examine and that misconception.  
 >> 2. If most of the class votes
->> for the right answer, it's probably safe to move on.  
+>> for the right answer, it is ok to explain the answer and move on. Helpers can make 
+>> themselves available to assist anyone who still feels uncertain. 
 >> 3. If answers are pretty evenly
->> split between options, learners are probably guessing randomly and it's a good
+>> split between options, learners may be guessing randomly, reflecting an 
+>> absent mental model rather than a broken one. In this case it is a good
 >> idea to go back to a point where everyone was on the same page.
 > {: .solution}
 {: .challenge}
 
-> ## Modeling Novice Mental Models
->
-> Take 10 minutes to create a multiple choice question related to a topic you intend to teach.
-> Type it into the Etherpad
-> and explain the diagnostic power of each its distractors,
-> i.e., what misconception is each distractor meant to identify?
-{: .challenge}
-
-> ## A Note on MCQ Design
->
-> *   A good MCQ tests for conceptual misunderstanding rather than simple factual knowledge.
->     If you are having a hard time coming up with diagnostic distractors,
->     then either you need to think more about your learners' mental models,
->     or your question simply isn't a good starting point for an MCQ.
-> *   When you are trying to come up with distractors,
->     think about questions that learners asked or problems they had
->     the last time you taught this subject.
->     If you haven't taught it before,
->     think about your own misconceptions
->     or ask colleagues about their experiences.
-{: .callout}
-
-Designing an MCQ with plausible distractors is useful
-even if it is never used in class
-because it forces the instructor to think about the learners' mental models
-and how they might be broken---in short,
+Designing a few MCQs with diagnostic power is useful
+when preparing to teach even if they are never used, for the same reason that concept 
+mapping can be useful: it forces the instructor to think about the learners' mental models
+and try to anticipate how they might be broken. In short, it helps Instructors 
 to put themselves into the learners' heads
-and see the topic from their point of view.
+and see the topic from their point of view. We will talk more about the process of preparing to teach 
+in a later episode.
 
-There are many types of formative assessments other than MCQs. One (non-exhaustive) list
-can be found in the [Edutopia assessment group](https://www.edutopia.org/groups/assessment/250941). 
 
-## Formative Assessments Should Be Frequent
+## The Importance of Going Slowly 
 
-Instructors should use a formative assessment ideally every 5 minutes and 
-at least every 10-15 minutes
-in order to make sure that the class is actually learning.
-Since the average attention span is usually only this long,
-formative assessments also help break up instructional time
-and re-focus attention.
-Formative assessments can also be used preemptively:
-if you start a class with a question and everyone can answer it correctly,
-then you can safely skip the part of the lecture
-in which you were going to explain something that your learners already know.
+It takes work to actively assess mental models throughout a workshop; this also takes time. This 
+can make Instructors feel conflicted about using formative assessment routinely. However, the need to 
+conduct routine assessment is not the only reason why a workshop **should proceed more slowly than you think**. 
 
-> ## How Many? 
-> 
-> The Carpentries use formative assessments often. How many have we done since the start of this
-> workshop? Put your guess in the Etherpad along with one example and the purpose that assessment served.  
-> 
-> This discussion should take about 5 minutes. 
-> 
->> ## Solution 
->> This will depend on the event they are attending. Most attendees will guess low. 
->> The purpose of this exercise is to emphasize the importance of frequent formative 
->> assessments and that an individual assessment doesn't have to take a lot of time.
-> {: .solution}
-{: .challenge}
+One key insight from research on cognitive development is that
+novices, competent practitioners, and experts each need to be taught differently.
+In particular,
+presenting novices with a pile of facts early on is counter-productive,
+because they do not yet have a model or framework to fit those facts into.
+In fact,
+**presenting too many facts too soon can actually reinforce
+an incorrect mental model**. (This is a key problem with the "empty vessel" analogy described earlier.)
 
-> ## A Corollary Regarding Novices
->
-> Learners are commonly _far_ too satisfied to not understand key points
-> and remain confused.  If learners remain confused, they are far less likely
-> to adopt our "good enough" practices at the conclusion of the workshop.
-> Encourage helpers to support confused learners as far as possible within
-> the flow of the workshop.
+Most learners coming to Carpentries lessons are novices,
+and do not have a strong mental model of the concepts we are teaching.
+Thus, our primary goal is **not**
+to teach the syntax of a particular programming language, but **to help them construct a working mental model**
+so that they have something to attach facts to. In other words, our goal is to teach people **how to think** about programming and data
+management in a way that will allow them to learn more easily on their own or understand what they might find online.
+
+
+> If someone feels it is too slow, they will be a bit bored. If they feel it is too fast, they will never come back to programming.
+> — Kunal Marwaha, SWC Instructor
+{: .testimonial}
+
+If our goal is to help novices construct an accurate and useful mental model of a new intellectual domain,
+this will impact our teaching. For example, we principally want to help learners
+form the right categories and make connections among concepts.  We *do not*
+want to overload them with a slew of unrelated facts, as this will be confusing.
+
+An important practical implication of this latter point is the pace at which we teach.  
+In the first main episode of Software Carpentry's [lesson on the Unix shell][swc-shell-novice],
+which covers "Navigating Files and Directories", there are only four "commands"
+for 40 minutes of teaching. Ten minutes per command may seem glacially slow,
+but that episodes's real purpose is to teach learners about paths; later on,
+they will learn about history, wildcards, pipes and filters,
+command-line arguments, redirection,
+and all the other big ideas on which the shell depends,
+and without which people cannot understand how to use commands.
+
+That mental model of the shell also includes things like:
+
+*   Anything you repeat manually, you will eventually get wrong
+    (so let the computer repeat things for you by using tab completion
+    and the `history` command).
+*   Lots of little tools, combined as needed, are more productive than
+    a handful of programs.
+    (This motivates the pipe-and-filter model.)
+
+These two examples illustrate something else as well.
+Learning consists of more than "just" adding information to mental models;
+creating linkages between concepts and facts is at least as important.
+Telling people that they should not repeat things,
+and that they should try to think (by analogy) in terms of little pieces loosely joined,
+both set the stage for discussing functions.
+Explicitly referring back to pipes and filters in the shell when introducing functions
+helps solidify both ideas.
+
+> ## Meeting Learners Where They Are
+> One of the strengths of Carpentries workshops is that we meet learners *where they are*. Carpentries Instructors
+> strive to help learners
+> progress from whatever starting point they happen to be at, without making anyone
+> feel inferior about their current practices or skillsets. We do this in part by teaching relevant and useful skills
+> building an inclusive learning environment, and continually getting (and paying attention to!) feedback
+> from learners. We will be talking in more depth about each of these strategies as we go forward in our workshop.
 {: .callout}
 
-## Optional exercises
 
-> ## Confronting the Contradiction
->
-> Describe a misconception you have encountered in your own learning or teaching
-> and how to get learners to confront it.
-{: .challenge}
 
-[swc-shell-novice]: http://swcarpentry.github.io/shell-novice/
+
+[swc-shell-novice]: https://swcarpentry.github.io/shell-novice/
 [wikipedia-dreyfus-skill]: https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition
+[nurses-dreyfus]: https://journals.sagepub.com/doi/10.1177/0270467604265061
+[Benner-dreyfus]: https://www.worldcat.org/search?q=au%3ABenner%2C+Patricia+E.
+[Edutopia]: https://www.edutopia.org/groups/assessment/250941
+[Dunning]: https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect

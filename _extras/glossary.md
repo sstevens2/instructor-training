@@ -63,9 +63,10 @@ title: "Glossary"
     <br>
     See also *competent practitioner* and *novice*.
 
-*   **Expert Blind Spot**:
+*   **Expert Awareness Gap**:
     The inability of experts to empathize with novices who are
-    encountering concepts or practices for the first time.
+    encountering concepts or practices for the first time. 
+    Often referred to as expert blind spot in the literature. 
 
 *   **Faded Example**:
     A series of examples in which a steadily increasing number of key
@@ -142,7 +143,7 @@ title: "Glossary"
 
 *   **Minute Cards**:
     A feedback technique in which learners spend a minute writing one
-    positive thing about a lesson (e.g., one thing they've learned) and
+    positive thing about a lesson (e.g., one thing they have learned) and
     one negative thing (e.g., a question that still hasn't been answered).
 
 *   **Novice**:

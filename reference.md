@@ -7,7 +7,7 @@ root: .
 
 Susan Ambrose et al: *[How Learning Works: Seven Research-Based Principles for Smart Teaching][worldcat-hlw]*.
 :   An excellent overview of what we know about education and why we
-    believe it's true, covering everything from cognitive psychology
+    believe it is true, covering everything from cognitive psychology
     to social factors.
 
 Stephen D. Brookfield and Stephen Preskill: *[The Discussion Book][worldcat-discussion]*.
@@ -29,7 +29,7 @@ Mark Guzdial: *[Learner-Centered Design of Computing Education: Research on Comp
 Doug Lemov: *[Teach Like a Champion 2.0][worldcat-tlac]*.
 :   Presents 62 classroom techniques drawn from intensive study of thousands of hours of video of good teachers in action.
 
-Therese Huston: *[Teaching What You Don't Know][worldcat-twydk]*.
+Therese Huston: *[Teaching What You Do not Know][worldcat-twydk]*.
 :   A pointed, funny, and very useful book that explores exactly what the title suggests.
 
 James Lang: *[Small Teaching][worldcat-small-teaching]*.
@@ -103,14 +103,14 @@ Porter et al: "[Success in Introductory Programming: What Works?]({{ page.root }
 Wiggins and McTighe: "[UbD in a Nutshell]({{ page.root }}/files/papers/wiggins-mctighe-ubd-nutshell.pdf)"
 :   A four-page summary of the authors' take on reverse instructional design.
 
-Wilson et al: "[Good Enough Practices in Scientific Computing](https://arxiv.org/abs/1609.00037)".
+Wilson et al: "[Good Enough Practices in Scientific Computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)".
 :   Describes and justifies a minimal set of computing practices that every researcher could and should adopt.
 
 Wilson et al: "[Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)"
 :   Describes and justifies the practices that mature scientific software developers ought to use.
 
 Wilson: "[Software Carpentry: Lessons Learned][swc-lessons-learned]"
-:   Summarizes what we've learned in 17 years of running classes for scientists.
+:   Summarizes what we have learned in 17 years of running classes for scientists.
 
 [worldcat-babt]: https://www.worldcat.org/title/building-a-better-teacher-how-teaching-works-and-how-to-teach-it-to-everyone/oclc/953075081
 [worldcat-clubhouse]: https://www.worldcat.org/title/unlocking-the-clubhouse-women-in-computing/oclc/752326915
